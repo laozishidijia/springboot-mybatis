@@ -25,7 +25,9 @@
       </if>
     </trim>
   </insert>
-
+  <insert id="addUser" parameterType="com.winterchen.model.UserDomain">
+    insert into t_user <include refid="BASE_COLUMN"/>
+  </insert>
   <select id="selectUsers" resultType="com.winterchen.model.UserDomain">
       SELECT
         <include refid="BASE_COLUMN"/>
