@@ -15,4 +15,5 @@ public interface UserService {
     PageInfo<UserDomain> findAllUser(int pageNum, int pageSize);
 
 //    int addUser(UserDomain userDomain);
+
 }

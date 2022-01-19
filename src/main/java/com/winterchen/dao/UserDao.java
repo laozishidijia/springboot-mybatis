@@ -15,4 +15,8 @@ public interface UserDao {
 //    int addUser(UserDomain userDomain);
 
     List<UserDomain> selectUsers();
+
+    void updateUsers(UserDomain userDomain);
+
+//    List<UserDomain> selectUsers();
 }
